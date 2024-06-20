@@ -5,19 +5,85 @@
     box-sizing: border-box;
 }
 header{
+    background:transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 10px;
 }
 header img{
+    margin-left: 50px;
     width: 170px;
     height: 50px;
 }
 header nav ul li{
+    font-weight: 500;
     display: inline-block;
-    margin: 0 15px;
+    transition: all 0.7s;
+    padding: 10px;
 }
 .icons i{
-    margin: 0 10px;
+    padding: 10px;
+    transition: all 0.7s;
+}
+header nav ul li:hover , .icons i:hover{
+    background-color: rgba(178, 178, 178, 0.875);
+    border-radius: 5px;
+}
+.container_1{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url("bg1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+.sub_head{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.sub_sub_head{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: grey;
+}
+.heading_container{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-align: center;
+}
+.order_now,.demo{
+    
+    padding: 10px 90px;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.5s;
+    
+}
+.order_now{
+    background-color:white;
+    color: black;
+}
+.demo{
+    background-color: rgba(0, 0, 0, 0.847);
+    color: white;
+}
+.order_now :hover,.demo:hover{
+    opacity: 0.8;
+}
+.button_container{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
