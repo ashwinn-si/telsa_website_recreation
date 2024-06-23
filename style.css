@@ -44,7 +44,7 @@ header nav ul li:hover , .icons i:hover{
     height: 100vh;
     position: relative;
     background-size: cover;
-    background-image: url("bg1.jpg");
+    background-image: url("images/bg1.jpg");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -107,7 +107,7 @@ header nav ul li:hover , .icons i:hover{
     color: white;
 }
 .container_2{
-    background-image: url("bg2.jpg");
+    background-image: url("images/bg2.jpg");
     
 }
 
@@ -115,18 +115,18 @@ header nav ul li:hover , .icons i:hover{
     top: 15%;
 }
 .container_3{
-    background-image: url("bg3.jpg");
+    background-image: url("images/bg3.jpg");
     
 }
 .container_4{
-    background-image: url("bg4.jpg");
+    background-image: url("images/bg4.jpg");
 }
 .container_4  .heading_container{
     left: 40%;
 }
 .container_5{
     
-    background-image: url("bg5.jpg");
+    background-image: url("images/bg5.jpg");
 }
 .container_5  .heading_container{
     left: 53%;
